@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F5331F9622FEEF400026B936 /* DVDataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F5331F9422FEEF400026B936 /* DVDataFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5331F9D22FEEF5F0026B936 /* DVDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5331F9C22FEEF5F0026B936 /* DVDataFetcher.swift */; };
+		F5331F9D22FEEF5F0026B936 /* DVDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5331F9C22FEEF5F0026B936 /* DVDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5331F9122FEEF400026B936 /* DVDataFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DVDataFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5331F9422FEEF400026B936 /* DVDataFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVDataFetcher.h; sourceTree = "<group>"; };
 		F5331F9522FEEF400026B936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5331F9C22FEEF5F0026B936 /* DVDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVDataFetcher.swift; sourceTree = "<group>"; };
+		F5331F9C22FEEF5F0026B936 /* DVDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			children = (
 				F5331F9422FEEF400026B936 /* DVDataFetcher.h */,
 				F5331F9522FEEF400026B936 /* Info.plist */,
-				F5331F9C22FEEF5F0026B936 /* DVDataFetcher.swift */,
+				F5331F9C22FEEF5F0026B936 /* DVDataManager.swift */,
 			);
 			path = DVDataFetcher;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5331F9D22FEEF5F0026B936 /* DVDataFetcher.swift in Sources */,
+				F5331F9D22FEEF5F0026B936 /* DVDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
