@@ -1,0 +1,11 @@
+framework module DVDataFetcher {
+  umbrella header "DVDataFetcher.h"
+
+  export *
+  module * { export * }
+}
+
+module DVDataFetcher.Swift {
+    header "DVDataFetcher-Swift.h"
+    requires objc
+}
